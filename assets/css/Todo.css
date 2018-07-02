@@ -1,0 +1,80 @@
+body{
+    font-family: Roboto;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1{
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+ul{
+    list-style:none;
+    padding-left: 0;
+    margin: 0 auto;
+    
+}
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+input{
+    font-size: 18px;
+    background: #f7f7f7;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 13px 13px 20px;
+    border-width: 0;
+    color: #2980b9;
+
+}
+input:focus{
+    background: white;
+    border: 3px solid #2980b9;
+}
+
+#container{
+    box-shadow: 0 0 3px rgb(0, 0, 0, 1);
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+
+}
+.strike{
+    text-decoration: line-through;
+    color: grey;
+}
+.hideToDo{
+    display: none;
+}
+
+.fa-plus{
+    padding-left: 160px;
+}
+.deleteTd{
+    height: 40px;
+    background:#e74c3c;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: all, 0.3s;
+    opacity: 0;
+
+}
